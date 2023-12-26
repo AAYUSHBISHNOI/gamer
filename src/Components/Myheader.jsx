@@ -43,7 +43,7 @@ const Myheader = () => {
         <section className=' pt-24 pb-16 md:pt-[200px] md:pb-[250px] px-4'>
           <div className=' container mx-auto max-w-[1164px] flex justify-center flex-col'>
             <h1 className=' ff_Anton text-[48px] md:text-[72px] text-white font-normal uppercase text-center leading-[120%]'>Exclusive Games. <span className=' block'> Pasión por ganar</span></h1>
-            <p className=' ff_inter text-white text-[13px] md:text-[16px] font-medium text-center leading-[25px] pt-[16px]'>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de <span className=' lg:block'> multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de</span> <span className=' lg:block'> juegos hasta que un día decidimos crear los propios.</span></p>
+            <p className=' ff_inter text-white text-[13px] md:text-[16px] font-medium text-center leading-[140%] pt-[16px]'>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de <span className=' lg:block'> multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de</span> <span className=' lg:block'> juegos hasta que un día decidimos crear los propios.</span></p>
             <div className=' flex justify-center mt-[40px] z-10'>
             <div className='  relative '>
               <button className=' my_btn z-30 ff_inter font-bold text-[16px] text-[#00141b] py-[13px] px-[46px] rounded-[100px] bg_bttn'>Empezar</button>
