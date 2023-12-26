@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.ff_inter{
+    font-family: "Inter";
 }
+.ff_Anton{
+    font-family: "Anton";
+}
+.bg_card{
+    background: linear-gradient(307deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%);
+    backdrop-filter: blur(16px);
+}
+.bg_nav{
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(26px);
+}
+.bg_bttn{
+    background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
+}
+.bcg_header{
+    background-image: url("./assets/img/headerbcg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg_lanza{
+    background-image: url("./assets/img/Final_cta.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    width: 98%;
+}
+.bg_luxury{
+    background-image: url("./assets/img/bgluxury.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    width: 99%;
+}
+.bg_por{
+   background-color: white;
+}
+.bg_marca{
+   background-color: white;
+}
+.bg_jackpot{
+    background-image: url("./assets/img/jackpotbcg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg_laura{
+    border-radius: 16px;
+    border: 0.5px solid #FFF;
+    backdrop-filter: blur(5px);
+}
+.bg_silver_card{
+    border-radius: 16px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(307deg, rgba(81, 200, 239, 0.06) -13.72%, rgba(122, 245, 122, 0.06) 102.02%);
+}
+/* .faq-main-heading {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.75rem;
+    max-width: 245px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 121%;
+    letter-spacing: -.74px;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+} */
+.accordian-main {
+    /* --tw-text-opacity: 1; */
+    /* --tw-backdrop-blur: blur(21px); */
+    /* -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); */
+    /* backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); */
+    /* transition-property: opacity; */
+    /* transition-timing-function: cubic-bezier(.4,0,.2,1); */
+    /* transition-duration: .3s; */
+    /* transition-timing-function: cubic-bezier(.4,0,1,1); */
+}
+.elpsise{
+    background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
+    filter: blur(179.9499969482422px);
+}
+.Juegos_layer {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 8px !important;
+    transition: all 350ms linear !important;
+  }
+  .Juegos-card:hover .Juegos_layer {
+    opacity: 1 !important;
+  }
+  .overflowhidden{
+    overflow: hidden !important;
+  }
+  .my_btn{
+    transition: all 300ms linear;
+  }
+  .my_btnn{
+    border-radius: 100px;
+    border: 2px solid white;
+    transition: all 300ms linear;
+  }
+  .my_btn:hover{
+    box-shadow: 0 0 5px 0 #00d7c3 inset, 0 0 5px 2px #00d7c3;
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(81,200,239,0.42); */
+    /* -moz-box-shadow: 10px 10px 5px 0px rgba(81,200,239,0.42); */
+  }
+  .my_btnn:hover{
+    box-shadow: 0 0 5px 0 #fff inset, 0 0 5px 2px #fff;
+    /* -webkit-box-shadow: 10px 10px 5px 0px rgba(81,200,239,0.42); */
+    /* -moz-box-shadow: 10px 10px 5px 0px rgba(81,200,239,0.42); */
+  }
+  @media (min-width:1024px) {
+    .bg_marca{
+        background-image: url("./assets/img/bcgwhite.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: transparent;
+    }
+    .bg_por{
+        background-image: url("./assets/img/bgpor.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: transparent;
+    }
+  }

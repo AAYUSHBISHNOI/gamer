@@ -1,23 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import Preloader from './Components/Coman/Preloader';
+import Ellos from './Components/Ellos';
+import Jackpot from './Components/Jackpot';
+import Lanza from './Components/Lanza';
+import Marca from './Components/Marca';
+import Mas from './Components/Mas';
+import Mybacktotop from './Components/Mybacktotop';
+import Myfooter from './Components/Myfooter';
+import Myheader from './Components/Myheader';
+import Nuestra from './Components/Nuestra';
+import Ofertas from './Components/Ofertas';
+import Por from './Components/Por';
+import Razones from './Components/Razones';
+import "aos/dist/aos.css"
+import Aos from "aos"
+import { useEffect} from 'react';
+
 
 function App() {
+  useEffect (() => {
+    Aos.init({duration:1000,});
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" bg-[#00141b]">
+      <Myheader/>
+      <Nuestra/>
+      <Marca/>
+      <Jackpot/>
+      <Por/>
+      <Razones/>
+      <Ofertas/>
+      <Ellos/>
+      <Mas/>
+      <Lanza/>
+      <Myfooter/>
+      <Preloader/>
+      <Mybacktotop/>
     </div>
   );
 }
