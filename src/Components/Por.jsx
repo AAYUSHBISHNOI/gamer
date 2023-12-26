@@ -18,7 +18,7 @@ const Por = () => {
                     </div>
                     </div>
                 </div>
-                <div className=' w-[100%] md:w-[45%] flex justify-center order-1 md:order-2'>
+                <div className=' w-[100%] md:w-[48%] flex justify-center order-1 md:order-2'>
                     <img className=' rounded-[16px]' src={casino} alt="" />
                 </div>
             </div>
