@@ -22,7 +22,7 @@
     background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
 }
 .bcg_header{
-    background-image: url("./assets/img/headerbcg.png");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 89.07%, #00141B 97.5%), url('./assets/img/headerbcg.png'), #00141B 0px 0px / 100% 101.635% no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
