@@ -28,7 +28,7 @@ const Ofertas = () => {
             <p className=' text-[48px] font-normal text-white ff_Anton text-center leading-[120%]'>Nuestras ofertas</p>
             <p className=' text-[16px] font-medium text-white ff_inter text-center leading-[160%]'>Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
             <div className=' bg_silver_card w-[99%] xl:w-[1140px] h-[100%] xl:h-[627px] mt-10 md:mt-[60px] relative'>
-               <div className=' flex flex-wrap  px-[20px] pt-5 pb-5 md:pb-10 md:pt-[45px]'>
+               <div className=' flex flex-wrap lg:items-center px-[20px] pt-5 pb-5 md:pb-10 md:pt-[45px]'>
                 <div className=' w-[100%] lg:w-[50%]'>
                     <div className=' flex flex-col justify-center '>
                         <img className='w-[100%]' src={spinner} alt="" />
