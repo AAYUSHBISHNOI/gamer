@@ -16,8 +16,8 @@ const Marca = () => {
         <div className=' container mx-auto max-w-[1164px] py-10 lg:py-[243px]'>
             <h2 className=' text-[28px] md:text-[48px] text-[#00141b] font-normal ff_Anton text-center '>Nuestros Atributos de Marca</h2>
             <div className=' flex flex-wrap justify-center md:justify-between pt-5 md:pt-10 lg:mt-[60px] relative'>
-            <img className=' hidden xl:block absolute left-[18%]' src={grn} alt="" />
-            <img className=' hidden xl:block absolute left-[58%] top-[40%]' src={grna} alt="" />
+            <img className=' hidden xl:block absolute left-[23%] w-[20%]' src={grn} alt="" />
+            <img className=' hidden xl:block absolute left-[58%] top-[40%] w-[20%]' src={grna} alt="" />
               <div className=' w-[100%] sm:w-[50%] md:w-[21%] lg:w-[30%] flex flex-col justify-center items-center'>
                 <Bulb/>
                 <p className=' text-[#00141b] text-[20px] font-normal ff_Anton pt-[16px]'>Inteligencia</p>
